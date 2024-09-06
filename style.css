@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    box-sizing: border-box;
+   font-family: serif;
+}
+body{
+    background-color: teal;
+    color:#FFFF;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+}
+input{
+border:2px solid rgb(8, 143, 143);
+}
+.guide_class{
+    text-align: center;
+}
+.form_sec{
+    margin-top: 10px;
+    text-align: center;
+}
+#results{
+    text-align: center;
+    font-size: 22px;
+    color:rgb(214, 161, 14);
+}
+#remarks{
+    text-align: center;
+    font-size: 22px; 
+    color:red;
+}
+.reset_btn{
+   justify-content: center;
+   text-align: center;
+}

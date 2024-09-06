@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="heading">
+            <h1>BMI Calculator</h1>
+        </div>
+        <section>
+            <div class="container form_sec" >
+                <form action="">
+                    <label for="">Height in cm:</label> <br>
+                    <input type="text" id="height" autocomplete="off"/> <br> <br>
+                    <label for="">Weight in kg:</label> <br>
+                    <input type="text" id="weight" autocomplete="off"/> <br> <br>
+                    <button type="submit" class="btn btn-danger">Calculate</button> 
+                </form>
+
+            </div>
+        </section> <br> 
+        <section >
+            <div id="results"></div> 
+            <div id="remarks"></div>
+           <div class="reset_btn"> <button type="reset" class="btn btn-success " onclick="reset()">Reset</button> <br>
+           </div>  <br>
+        </section>
+        <section><div class="guide_class" id="weight_guide">
+            <h5 class="text-dark">BMI Weight Guide:</h5>
+           <span> Under Weight=  <span>Less than 18.6</span></span> <br>
+           <span> Normal Range=  <span>18.6 to 24.9</span></span> <br>
+           <span> Over Weight=  <span>Greater than than 24.9</span></span> <br>
+        </div></section>
+        </div> <br> <br>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
